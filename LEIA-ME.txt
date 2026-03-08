@@ -1,0 +1,80 @@
+PASTA SOUNDS — JJK SORCERER'S DUEL
+=====================================
+
+Como funciona:
+  O jogo tenta carregar sounds/[nome].mp3
+  Se o arquivo não existir → usa som procedural embutido (Web Audio API)
+  Só jogar o arquivo com o nome certo na pasta!
+
+  Para lista completa e personalização: veja sounds.js na pasta do jogo.
+
+─────────────────────────────────────────────────────────────────────
+LISTA COMPLETA DE SONS ACEITOS
+─────────────────────────────────────────────────────────────────────
+
+JOGO
+  start.mp3               → botão START
+
+SELEÇÃO DE PERSONAGEM
+  select_gojo.mp3         → ao selecionar Gojo
+  select_sukuna.mp3       → ao selecionar Sukuna
+  select_megumi.mp3       → ao selecionar Megumi
+  select_itadori.mp3      → ao selecionar Itadori (NOVO)
+  select_nanami.mp3       → ao selecionar Nanami (NOVO)
+
+MAHORAGA
+  mahoraga.mp3            → adaptação 100% (dharma wheel)
+  summon_mahoraga.mp3     → ao invocar Mahoraga
+  adapt_sukuna.mp3        → Mahoraga adapta ao Dismantle/Cleave
+  adapt.mp3               → adaptação parcial
+
+GOJO
+  blue.mp3                → Blue
+  red.mp3                 → Red
+  hollow.mp3              → Hollow Purple
+  void_domain.mp3         → Unlimited Void (ativação do domínio)
+
+SUKUNA
+  dismantle.mp3           → Dismantle
+  cleave.mp3              → Cleave
+  furnace.mp3             → Furnace
+  shrine_domain.mp3       → Malevolent Shrine (ativação do domínio)
+
+MEGUMI
+  dogs.mp3                → Divine Dogs
+  nue.mp3                 → Nue
+  serpent.mp3             → Great Serpent
+  toad.mp3                → Giant Toad
+  chimera_domain.mp3      → Chimera Shadow Garden (ativação)
+  megumi_halfhp.mp3       → Megumi com 50% HP
+
+ITADORI (NOVO)
+  black_flash.mp3         → Black Flash
+  divergent_fist.mp3      → Divergent Fist / Barrage
+
+NANAMI (NOVO)
+  ratio.mp3               → Ratio Technique / Blackout
+  overtime.mp3            → Overtime Rush
+
+MAHORAGA - DIVINE OVERTHROW
+  overthrow.mp3           → Divine Overthrow (ativação - CORRIGIDO)
+
+COMBATE GERAL
+  hit.mp3                 → acerto normal
+  crit.mp3                → acerto crítico
+  miss.mp3                → errou
+  heal.mp3                → cura
+  defend.mp3              → defesa
+  domain.mp3              → domínio genérico
+  domain_break.mp3        → domínio quebrado
+  simple_domain.mp3       → Simple Domain
+  summon.mp3              → invocar shikigami
+  infinity.mp3            → Infinito bloqueou
+
+PASSIVOS (tocam a cada 2 turnos, não em loop)
+  shrine.mp3              → dano passivo do Shrine
+  void.mp3                → dano passivo do Void
+
+─────────────────────────────────────────────────────────────────────
+Formato: .mp3 recomendado | Volume automático: 75%
+Qualquer MP3 da internet funciona — só renomear e jogar aqui!
